@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
     const getCharactersRandom = () => {
       axios
-        .get("https://rickandmortyapi.com/api/character/1,2, 180")
+        .get("https://rickandmortyapi.com/api/character/1,2,180,666")
         .then((result) => setCharactersRandom(result.data));
     };
     getCharactersRandom();
